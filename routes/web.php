@@ -26,6 +26,9 @@ Route::group(['middleware' => 'auth'], function() {
     Route::post('subscription', 'MainController@create')->name('subscription.create');
     Route::get('/home', 'HomeController@index')->name('home');
     Route::get('fetchinvoices', 'MainController@fetchinvoices')->name('plans.invoices');
+    Route::get('fetchallplans', 'MainController@fetchallplans')->name('plans.fetchallplans');
+    Route::get('cancelsubscription/{id}', 'MainController@cancelsubscription')->name('plans.cancelsubscription');
+    Route::get('fetchusersubscriptions', 'MainController@fetchusersubscriptions')->name('plans.fetchusersubscriptions');
 });
 
 
