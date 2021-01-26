@@ -38,7 +38,7 @@
 <script src="https://js.stripe.com/v3/"></script>
 <script>
     // Create a Stripe client.
-var stripe = Stripe('pk_test_51HDQhHJBwKM9SgpozX3prCdKZhWDznLDGcb8bGwcpTYdYG9hUKfmJtj2JDaU4M39eOn2hoDQWoKOFej8YiQFB0Zf00vQAdHouS');
+var stripe = Stripe('pk_test_51I3yIbKRRxWfz3arekayAaVisbgHf4CwmLL7vZEjhXnKcYFgka6W8aBznPzrJKvX0siYlIXJwqnfudz8tSsBLLDP00FBaO5O74');
 
 // Create an instance of Elements.
 var elements = stripe.elements();
